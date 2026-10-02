@@ -321,7 +321,7 @@ main {
 .content{
     height: 40dvh;
     width: 50%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 20px auto;
     
 }
