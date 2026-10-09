@@ -78,12 +78,21 @@ main {
     gap: 20px;
     color: black;
 }
-/* Remove default browser spacing */
+.search a :hover {
+    color: #981D87;
+}
+.saka {
+    border-radius: 50px;
+    margin-left: 433px;
+    background-color: #981D87;
+    border: none;
+}
 
 
 
 
-/* Services container */
+
+
 .services {
     width: 100%;
     height: 40dvh;
@@ -95,7 +104,7 @@ main {
     gap: 18px;
 }
 
-/* Individual cards */
+
 .service-card {
     min-height: 135px;
     background-color: #ffffff;
@@ -112,21 +121,21 @@ main {
     transition: 0.3s ease;
 }
 
-/* Icons */
+
 .icon {
     color: #c76bc9;
     font-size: 24px;
     transition: 0.3s ease;
 }
 
-/* Card text */
+
 .service-card p {
     color: #777783;
     font-size: 14px;
     text-align: center;
 }
 
-/* Hover effect */
+
 .service-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
@@ -136,7 +145,7 @@ main {
     color: #9338a3;
 }
 
-/* Tablets and small laptops */
+
 @media screen and (max-width: 1024px) {
     .services {
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -144,7 +153,7 @@ main {
     }
 }
 
-/* Mobile phones */
+
 @media screen and (max-width: 600px) {
     .services {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -166,7 +175,7 @@ main {
     }
 }
 
-/* Very small screens */
+
 @media screen and (max-width: 350px) {
     .services {
         grid-template-columns: 1fr;
@@ -176,23 +185,22 @@ main {
         min-height: 100px;
     }
 }
-/* Reset default browser spacing */
 
 
-/* Main section */
+
+
 .business-section {
     width: 100%;
     padding: 90px 6%;
 }
 
-/* Content container */
 .container {
     width: 100%;
     max-width: 1350px;
     margin: 0 auto;
 }
 
-/* Small heading */
+
 .section-label {
     font-size: 20px;
     font-weight: 600;
@@ -200,7 +208,7 @@ main {
     margin-bottom: 25px;
 }
 
-/* Main heading */
+
 h1 {
     font-size: 64px;
     font-weight: 200;
@@ -209,7 +217,7 @@ h1 {
     margin-bottom: 25px;
 }
 
-/* Description */
+
 .description {
     max-width: 1250px;
     font-size: 25px;
@@ -218,7 +226,7 @@ h1 {
     color: #777777;
 }
 
-/* Large laptops and desktops */
+
 @media screen and (max-width: 1200px) {
     .business-section {
         padding: 75px 5%;
@@ -233,7 +241,7 @@ h1 {
     }
 }
 
-/* Tablets and small laptops */
+
 @media screen and (max-width: 992px) {
     .business-section {
         padding: 65px 5%;
@@ -255,7 +263,7 @@ h1 {
     }
 }
 
-/* Mobile phones */
+
 @media screen and (max-width: 768px) {
     .business-section {
         padding: 50px 6%;
@@ -278,7 +286,6 @@ h1 {
     }
 }
 
-/* Small mobile phones */
 @media screen and (max-width: 480px) {
     .business-section {
         padding: 40px 20px;
@@ -301,7 +308,7 @@ h1 {
     }
 }
 
-/* Very small screens */
+
 @media screen and (max-width: 320px) {
     .business-section {
         padding: 30px 15px;
@@ -432,10 +439,32 @@ h1 {
 }
 .rid>h3 {
     display: flex;
+    color: black;
 }
 .rid>p{
     display: flex;
+    color: black;
 }
+.drip {
+    width: 90%;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+}
+.drip>h6 {
+    display: flex;
+    align-items: start;
+    color: #981D87;
+}
+.drip>h3 {
+    display: flex;
+    color: black;
+}
+.drip>p{
+    display: flex;
+    color: black;
+}
+
 
 .card>img {
     margin: auto;
@@ -482,12 +511,14 @@ h1 {
     font-size: 1.5rem;
     font-weight: bold;
     text-align: start;
+    color: black;
 }
 
 .two .box>p {
     font-size: 1rem;
     line-height: 23px;
     text-align: start;
+    color: black;
 }
 
 .two .box>button {
@@ -1067,12 +1098,14 @@ h1 {
     font-size: 1.5rem;
     font-weight: bold;
     text-align: start;
+    color: black;
 }
 
 .three .box>p {
     font-size: 1rem;
     line-height: 23px;
     text-align: start;
+    color: black;
 }
 
 .three .box>button {
@@ -1086,26 +1119,6 @@ h1 {
     border: 1px solid #981D87;
     color: #981D87;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: "Inter", sans-serif;
-    background: #ffffff;
-    color: white;
-}
-
-
-
-
-
 
 .blog-grid {
     margin-top: 25px;
