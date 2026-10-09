@@ -43,6 +43,7 @@ header {
 .topic a {
     align-items: center;
     color: black;
+    text-decoration: none;
     /* justify-content: space-between; */
 }
 
@@ -77,6 +78,7 @@ main {
     margin-left: 10px;
     gap: 20px;
     color: black;
+    text-decoration: none;
 }
 .search a :hover {
     color: #981D87;
@@ -1119,6 +1121,7 @@ h1 {
     border: 1px solid #981D87;
     color: #981D87;
 }
+
 
 .blog-grid {
     margin-top: 25px;
